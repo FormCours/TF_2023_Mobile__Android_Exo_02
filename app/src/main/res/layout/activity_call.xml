@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/spacer"
+    tools:context=".CallActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_call"
+        style="@style/title"
+        />
+
+    <TextView
+        style="@style/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/et_call_number"
+        android:text="@string/lable_phone_number" />
+
+    <EditText
+        android:id="@+id/et_call_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:autofillHints="phone"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacer_inner" />
+
+    <Button
+        android:id="@+id/btn_call_action"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_call" />
+
+</LinearLayout>

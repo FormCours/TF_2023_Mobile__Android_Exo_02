@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="label">
+        <item name="android:textSize">@dimen/label</item>
+        <item name="android:textColor">@color/pink_100</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/ducktales</item>
+        <item name="android:textColor">@color/pink_100</item>
+        <item name="android:shadowColor">@color/cyan_200</item>
+        <item name="android:shadowRadius">15</item>
+        <item name="android:layout_marginBottom">@dimen/spacer</item>
+    </style>
+
+    <style name="long_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textColor">@color/cyan_200</item>
+        <item name="android:shadowColor">@color/pink_200</item>
+        <item name="android:shadowRadius">20</item>
+    </style>
+
+</resources>

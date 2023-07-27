@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label">20sp</dimen>
+    <dimen name="title">50sp</dimen>
+    <dimen name="spacer">25dp</dimen>
+    <dimen name="spacer_inner">5dp</dimen>
+</resources>
