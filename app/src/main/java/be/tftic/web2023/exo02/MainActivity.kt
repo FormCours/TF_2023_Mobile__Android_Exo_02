@@ -10,6 +10,7 @@ import be.tftic.web2023.exo02.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     companion object {
+        // Permet de rendre accessible des valeurs depuis le nom de la classe
         const val EXTRA_USERNAME = "Username"
     }
 
