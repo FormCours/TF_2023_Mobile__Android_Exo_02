@@ -9,26 +9,30 @@
     tools:context=".InfoActivity">
 
     <TextView
+        style="@style/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title_info"
-        style="@style/title"
-        />
+        android:text="@string/title_info" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/trigun_cat"
+        android:layout_margin="5dp"
         android:contentDescription="@string/img_cat_desc"
         android:scaleType="fitCenter"
-        android:layout_margin="5dp"
-        />
+        android:src="@drawable/trigun_cat" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_lorem"
-        style="@style/long_text"
-        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            style="@style/long_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="always"
+            android:scrollbars="vertical"
+            android:text="@string/cat_lorem" />
+    </ScrollView>
 
 </LinearLayout>
