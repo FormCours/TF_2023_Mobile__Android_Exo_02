@@ -9,6 +9,7 @@
     <style name="label">
         <item name="android:textSize">@dimen/label</item>
         <item name="android:textColor">@color/red_600</item>
+        <item name="android:textAlignment">textStart</item>
     </style>
 
     <style name="title">

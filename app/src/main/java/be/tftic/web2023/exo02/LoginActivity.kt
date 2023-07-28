@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
         val username : String = binding.etLoginUsername.text.toString()
         val password : String = binding.etLoginPassword.text.toString()
 
-        if(username.lowercase() != "della" && password != "Test1234=") {
+        if(username.lowercase() != "della" || password != "Test1234=") {
             binding.etLoginUsername.text.clear()
             binding.etLoginPassword.text.clear()
             binding.etLoginUsername.requestFocus()
