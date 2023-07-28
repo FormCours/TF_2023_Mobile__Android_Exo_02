@@ -21,4 +21,6 @@
     <string name="toast_welcome_msg">Bienvenue %s</string>
     <string name="toast_error_login">Bad credentials !</string>
     <string name="unknown_username">Inconnu</string>
+    <string name="uri_tel">tel:%s</string>
+    <string name="toast_no_call_permission">Il est necessaire d\'autoriser l\'application à utiliser le téléphone, si vous désirez effectuer un appel avec celle-ci... Sans cela, il n\'est pas possible que l\'application puisse effecter un appel (et c\'est une sécurité imposé par Android. Merci d\'accepter) !</string>
 </resources>
